@@ -11,8 +11,7 @@ public class Calculadora {
         int desconto = 10;
 
         double precoFinal = precoOriginal - (precoOriginal * desconto / 100.0);
-        System.out.printf("Preço final: R$ %.2f%n", precoFinal);
-
+        System.out.printf("Produto: %s | Preço final: R$ %.2f%n", produto, precoFinal);
         scanner.close();
     }
 }
